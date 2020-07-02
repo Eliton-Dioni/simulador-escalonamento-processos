@@ -1,0 +1,77 @@
+.new-fifo-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 74vh;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-fifo-container .content {
+  width: 100%;
+  padding: 70px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .new-fifo-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.new-fifo-container .content section img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.new-fifo-container .content section .title {
+  margin: 50px 0 30px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+
+.new-fifo-container .content section .description {
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+  text-align: center;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: opacity 0.2s;
+}
+
+.back-link svg {
+  margin-right: 8px;
+}
+
+.back-link:hover {
+  opacity: 0.8;
+}
+
+.new-fifo-container .content form {
+  width: 100%;
+  max-width: 300px;
+}
+
+.new-fifo-container .content form input {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  padding: 0 24px;
+}

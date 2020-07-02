@@ -1,0 +1,23 @@
+[
+    {
+        "process0:": {
+            "arriveTime": 1,
+            "processTime": 4
+        }
+    },
+    {
+        "process1:": {
+            "time": 3
+        }
+    },
+    {
+        "process2:": {
+            "time": 8
+        }
+    },
+    {
+        "process0:": {
+            "time": 5
+        }
+    }
+]
